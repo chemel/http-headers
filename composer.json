@@ -1,0 +1,25 @@
+{
+    "name": "alc/http-headers",
+    "type": "library",
+    "description": "HTTP Headers",
+    "keywords": ["guzzle", "curl", "http"],
+    "homepage": "https://github.com/chemel/http-headers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexis CHEMEL",
+            "homepage": "https://github.com/chemel",
+            "email": "github@chemel.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        	"Alc\\HttpHeaders\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
